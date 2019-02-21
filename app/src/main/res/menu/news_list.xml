@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/detail"
+        android:icon="@drawable/menu_list_white"
+        android:title="@string/menu_list"
+        app:showAsAction="ifRoom"
+        ><menu>
+    <item android:id="@+id/add_news"
+        android:icon="@drawable/plus"
+        app:showAsAction="withText"
+        android:orderInCategory="100"
+        android:title="@string/add" />
+    <item android:id="@+id/delete_news"
+        android:icon="@drawable/trash"
+        android:title="@string/delete"
+        android:orderInCategory="100"
+        app:showAsAction="withText"/>
+        <item android:id="@+id/refresh_news"
+            android:icon="@drawable/refresh"
+            android:title="@string/refresh"
+            android:orderInCategory="100"
+            app:showAsAction="withText"/>
+    </menu>
+    </item>
+</menu>

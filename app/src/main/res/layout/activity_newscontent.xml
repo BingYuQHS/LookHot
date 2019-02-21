@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+<TextView
+    android:id="@+id/detail_title"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:textSize="24sp"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:text="@string/text_detailTitle"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="28dp"
+    android:gravity="center_vertical">
+<TextView
+    android:id="@+id/detail_house"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="12sp"
+    android:layout_alignParentLeft="true"
+    android:text="@string/publish_house"/>
+    <TextView
+        android:id="@+id/detail_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_alignParentRight="true"
+        android:text="@string/publish_time"/>
+</RelativeLayout>
+    <EditText
+        android:id="@+id/detail_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:focusable="false"
+        android:gravity="top"
+        android:background="@null"
+        android:text="@string/text_detailContent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical">
+        <EditText
+            android:id="@+id/et_comment"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/rounded_edittext"
+            android:focusable="false"
+            android:hint="@string/say_two"/>
+        <ImageButton
+            android:id="@+id/ib_show_comment"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/comment_logo"/>
+        <TextView
+            android:id="@+id/tw_count"
+            android:layout_width="20dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:text="0"
+            />
+    </LinearLayout>
+</LinearLayout>

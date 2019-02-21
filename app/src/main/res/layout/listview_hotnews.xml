@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/new_hotPic"
+        android:layout_marginLeft="8dp"
+        android:layout_width="140dp"
+        android:layout_height="110dp"
+        android:src="@drawable/entertainment1"
+        />
+    <RelativeLayout
+        android:layout_marginLeft="8dp"
+        android:layout_width="220dp"
+        android:layout_height="110dp">
+        <TextView
+            android:id="@+id/news_titleText"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            />
+        <ImageView
+            android:id="@+id/comment_logo"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/comment_logo"/>
+        <TextView
+            android:id="@+id/comment_num"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/comment_logo"
+            android:layout_marginLeft="5dp"
+            android:textSize="12sp"
+            android:gravity="center_vertical"
+            android:layout_width="40dp"
+            android:layout_height="20dp" />
+    </RelativeLayout>
+</LinearLayout>

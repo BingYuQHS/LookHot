@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="true">>
+
+    <item android:drawable="@drawable/yh_1" android:duration="400"/>
+    <item android:drawable="@drawable/yh_2" android:duration="400"/>
+    <item android:drawable="@drawable/yh_3" android:duration="400"/>
+    <item android:drawable="@drawable/yh_4" android:duration="400"/>
+    <item android:drawable="@drawable/yh_5" android:duration="400"/>
+    <item android:drawable="@drawable/yh_6" android:duration="400"/>
+    <item android:drawable="@drawable/yh_7" android:duration="400"/>
+    <item android:drawable="@drawable/yh_8" android:duration="400"/>
+    <item android:drawable="@drawable/yh_9" android:duration="400"/>
+    <item android:drawable="@drawable/yh_10" android:duration="400"/>
+    <item android:drawable="@drawable/yh_11" android:duration="400"/>
+    <item android:drawable="@drawable/yh_12" android:duration="400"/>
+    <item android:drawable="@drawable/yh_13" android:duration="400"/>
+    <item android:drawable="@drawable/yh_14" android:duration="400"/>
+    <item android:drawable="@drawable/yh_15" android:duration="400"/>
+    <item android:drawable="@drawable/yh_16" android:duration="400"/>
+    <item android:drawable="@drawable/yh_18" android:duration="400"/>
+    <item android:drawable="@drawable/yh_19" android:duration="400"/>
+    <item android:drawable="@drawable/yh_20" android:duration="400"/>
+</animation-list>

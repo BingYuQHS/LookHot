@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--白色圆点-->
+    <!--设置state_enabled="true" 能够接受触摸或者点击事件-->
+    <item android:drawable="@drawable/bg_shape1" android:state_enabled="true" />
+    <!--灰色圆点-->
+    <!--设置state_enabled="true" 能够不能接受触摸或者点击事件-->
+    <item android:drawable="@drawable/bg_shape2" android:state_enabled="false" />
+</selector>

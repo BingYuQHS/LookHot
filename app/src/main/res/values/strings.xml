@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">热门看点</string>
+    <string name="say_two">我来说两句...</string>
+    <string name="text_detailContent">测试新闻详情内容</string>
+    <string name="text_detailTitle">详情</string>
+    <string name="publish_house">天府早报</string>
+    <string name="publish_time">2018-6-3 12:00:01</string>
+    <string name="add">添加</string>
+    <string name="delete">删除</string>
+    <string name="menu_list">列表</string>
+    <string name="action_settings">设置</string>
+    <string name="addcomment">添加评论</string>
+    <string name="showcomment">查看评论</string>
+    <string name="floor">x楼</string>
+    <string name="download">下载</string>
+    <string name="replay_time">回帖时间：</string>
+    <string name="replay_content">回复内容：</string>
+    <string name="title">添加评论</string>
+    <string name="content">内容：</string>
+    <string name="content_hint">请输入评论内容</string>
+    <string name="insert">提交</string>
+    <string name="no_comment">哦豁~~还没有评论哦！</string>
+    <string name="refresh">刷新</string>
+</resources>
